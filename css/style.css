@@ -1,0 +1,248 @@
+body{
+    display: flex;
+}
+
+#left-side{
+    background-color: #ffd400;
+    filter: drop-shadow(1px 1px 3px #000);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+#left-side > h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    height: 60px;
+    line-height: 60px;
+    
+}
+
+#left-side > h1 > a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cabecalho > ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btns{
+    margin-bottom: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btns > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btns > li > a{
+    display: inline-block;
+    color: #ffd400;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #000;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.facebook{
+    height: 50px;
+    width: 30px;
+}
+
+.instagram{
+    height: 50px;
+    width: 50px;
+}
+
+.twitter{
+    height: 50px;
+    width: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer > p > a{
+    color: #000;
+}
+
+/* Fim do Lado Esquerdo*/
+
+#right-side{
+    background-color: #ffe987;
+    width: 70vw;
+}
+
+.main{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', serif;
+    color: #000;
+}
+
+.main > h1{
+    border-bottom: #ffd400 solid 5px;
+}
+
+.main > p{
+    text-align: justify;
+    font-weight: 500;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.projeto{
+    font-family: 'Roboto Mono', serif;
+    color: #000;
+    font-weight: 500;
+    width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto > p{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.form-enviar{
+    height: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto 0 auto;
+}
+
+label{
+    font-family: 'Roboto Mono', serif;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.btn-enviar{
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 700;
+    background-color: #ffd400;
+    color: #000;
+    cursor: pointer;
+}
+
+.alunos{
+    margin: 0 auto;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aluno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 3px solid #000;
+    padding: 10px;
+}
+
+.aluno-pic{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.pic1{
+    background-image: url(../img/ari.jpg);
+}
+
+.pic2{
+    background-image: url(../img/cole.jpg);
+}
+
+.pic3{
+    background-image: url(../img/jid.jpg)
+}
+
+.pic4{
+    background-image: url(../img/kl.jpg);
+}
+
+.aluno-info{
+    font-family: 'Roboto Mono', serif;
+}
+
+.aluno-info > h1 {
+    font-size: 20px;
+}
+
+.aluno-info > p{
+    font-size: 16px;
+    text-align: justify;
+}
